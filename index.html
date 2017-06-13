@@ -1,0 +1,68 @@
+<div class="container">
+   <div class="row">
+      <div class="col-xs-10 col-sm-5 col-md-5 col-centered no-gutter">
+         <div class="col-xs-12 paddingtopleftright-none popup-bg">
+            <div class="col-xs-12 popup-header">
+               <div class="col-xs-11">
+                  <h3>Brand Details</h3>
+               </div>
+               <div class="col-xs-1"></div>
+            </div>
+            <div class="col-xs-12 popup-content">
+               <form class="formVal" name="brand_modal_popup_name" id="brand_modal_popup_id" autocomplete="off" data-role="validator" novalidate="novalidate">
+                  <div class="form-horizontal formTabIndex">
+                     <legend>Brand Group(s)</legend>
+                     <fieldset>
+                        <div class="form-space">
+                           <div class="form-group">
+                              <label class="col-xs-5 no-gutter control-label" for="inputbrandFolioGroup">Brand Folio Group</label>
+                              <div class="col-xs-7 no-gutter"><span class="k-widget k-combobox k-header form-control k-input"><span tabindex="-1" unselectable="on" class="k-dropdown-wrap k-state-default"><input name="brandFolioGroup_name_input" class="k-input form-control" type="text" autocomplete="off" role="combobox" aria-expanded="false" aria-disabled="false" aria-readonly="false" aria-autocomplete="list" aria-owns="brandFolioGroup_listbox" aria-busy="false" aria-activedescendant="brandFolioGroup_option_selected" style="width: 100%;"><span tabindex="-1" unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s" role="button" tabindex="-1" aria-controls="brandFolioGroup_listbox">select</span></span></span><input type="brandFolioGroup" class="form-control" id="brandFolioGroup" name="brandFolioGroup_name" data-role="combobox" aria-disabled="false" aria-readonly="false" style="display: none;"></span></div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-xs-5 no-gutter control-label" for="inputStoreProfitGroup">Store Profit Group</label>
+                              <div class="col-xs-7 no-gutter"><span class="k-widget k-combobox k-header form-control k-input"><span tabindex="-1" unselectable="on" class="k-dropdown-wrap k-state-default"><input name="storeProfitGroup_name_input" class="k-input form-control" type="text" autocomplete="off" role="combobox" aria-expanded="false" aria-disabled="false" aria-readonly="false" aria-autocomplete="list" aria-owns="storeProfitGroup_listbox" aria-busy="false" aria-activedescendant="storeProfitGroup_option_selected" style="width: 100%;"><span tabindex="-1" unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s" role="button" tabindex="-1" aria-controls="storeProfitGroup_listbox">select</span></span></span><input type="storeProfitGroup" class="form-control" id="storeProfitGroup" name="storeProfitGroup_name" data-role="combobox" aria-disabled="false" aria-readonly="false" style="display: none;"></span></div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-xs-5 no-gutter control-label" for="inputInventoryBudget">Inventory Budget (OTB)</label>
+                              <div class="col-xs-7 no-gutter"><span class="k-widget k-combobox k-header form-control k-input"><span tabindex="-1" unselectable="on" class="k-dropdown-wrap k-state-default"><input name="inventoryBudget_name_input" class="k-input form-control" type="text" autocomplete="off" role="combobox" aria-expanded="false" aria-disabled="false" aria-readonly="false" aria-autocomplete="list" aria-owns="inventoryBudget_listbox" aria-busy="false" aria-activedescendant="inventoryBudget_option_selected" style="width: 100%;"><span tabindex="-1" unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s" role="button" tabindex="-1" aria-controls="inventoryBudget_listbox">select</span></span></span><input type="inventoryBudget" class="form-control" id="inventoryBudget" name="inventoryBudget_name" data-role="combobox" aria-disabled="false" aria-readonly="false" style="display: none;"></span></div>
+                           </div>
+                        </div>
+                     </fieldset>
+                  </div>
+                  <div class="form-horizontal formTabIndex">
+                     <legend>Brand Bar Code Setup</legend>
+                     <fieldset>
+                        <div class="form-space">
+                           <div class="form-group required">
+                              <label class="col-xs-5 no-gutter control-label" for="inputbrandCodeProvided">Bar Code Provided By</label>
+                              <div class="col-xs-7 no-gutter"><span class="k-widget k-dropdown k-header form-control k-input" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="brandCodeProvided_listbox" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="brandCodeProvided_option_selected" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">Select</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><input type="brandCodeProvided" class="form-control k-input" id="brandCodeProvided" name="barCodeProvided" data-role="dropdownlist" style="display: none;"></span><span class="k-widget k-tooltip k-tooltip-validation k-invalid-msg" data-for="barCodePrefix" role="alert" style="display: none;" id="err_msg_barcode"><span class="k-icon k-warning" id="err_msg_barcode"> </span></span></div>
+                           </div>
+                           <div class="form-group ">
+                              <label class="col-xs-5 no-gutter control-label" for="inputbarCodePrefix">Bar Code Prefix</label>
+                              <div class="col-xs-7 no-gutter"><input type="text" class="form-control k-input" id="barCodePrefix" name="barCodePrefix" required="" validationmessage="Required." maxlength="18" disabled="disabled"> <span class="k-widget k-tooltip k-tooltip-validation k-invalid-msg" data-for="barCodePrefix" role="alert" style="display: none;" id="err_msg"><span class="k-icon k-warning" id="err_msg"> </span></span> </div>
+                           </div>
+                           <div class="form-group ">
+                              <label class="col-xs-5 no-gutter control-label" for="inputEANCodeUsage">EAN Code Usage</label>
+                              <div class="col-xs-7 no-gutter"><span class="k-widget k-dropdown k-header form-control k-input" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" aria-owns="eanCodeUsage_listbox" aria-disabled="true" aria-readonly="false" aria-busy="false" aria-activedescendant="eanCodeUsage_option_selected" style=""><span unselectable="on" class="k-dropdown-wrap k-state-disabled"><span unselectable="on" class="k-input">Select</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><input type="eanCodeUsage" class="form-control k-input" id="eanCodeUsage" name="eanCodeUsage" required="" validationmessage="Required." data-role="dropdownlist" disabled="disabled" style="display: none;"></span><span class="k-widget k-tooltip k-tooltip-validation k-invalid-msg" data-for="eanCodeUsage" role="alert" style="display: none;" id="err_msg_eanusage"><span class="k-icon k-warning" id="err_msg_eanusage"> </span></span></div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-xs-5 no-gutter control-label" for="inputeanCodeNext">EAN Code Next No.</label>
+                              <div class="col-xs-7 no-gutter"><input type="text" class="form-control k-input" maxlength="18" id="eanCodeNext" name="eanCodeNext_name" disabled="disabled"><span class="k-widget k-tooltip k-tooltip-validation k-invalid-msg" data-for="eanCodeNext" role="alert" style="display: none;" id="err_msg_next"><span class="k-icon k-warning" id="err_msg_next"> </span></span><input type="hidden" k-input"="" id="modal_update_id"></div>
+                           </div>
+                        </div>
+                     </fieldset>
+                  </div>
+               </form>
+               <div class="col-md-12 col-sm-12 no-gutter align-right">
+                  <fieldset>
+                     <ul class="proceed-btn">
+                        <li><button form="form" id="return_id">Return</button></li>
+                        <li><button type="reset" value="reset" id="modal_reset_id">Reset</button></li>
+                     </ul>
+                  </fieldset>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
